@@ -1,5 +1,5 @@
 const alphabet = "abcdefghijklmnopqrstuvwxyz";
-let Friend = 'Brutus';
+let Friend = "Brutus";
 const firstLetter = Friend[0]; //B
 const index = alphabet.indexOf(firstLetter.toLowerCase()); //1
 const alphabetLength = 26; //26
@@ -8,8 +8,11 @@ const encryptedFirstLetter = alphabet[4]; //e
 const encryptedMessage = "EUXWXV";
 const teaserMessage = encryptedMessage.slice(0, 3); // EUX
 
-//question 1 
+//question 1
 //indexes start at 0 so the result is the position -1 (2-1=1)
 
 //question 2
 //the modulo operator (%) would wrap the string back around to the start
+
+secondLetter = Friend[1]; //r r=18
+secondLetterIndex = 18 + 3; // 21 u=21
